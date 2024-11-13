@@ -1,47 +1,56 @@
 # Databricks-cluster-and-notebook
 Configuración de la cuenta básica de DataBricks, creando poosteriormente un clúster, añadiendo varias tablas de datos y creando un notebook en el que ejecutar consultas.
 # TITULO
-https://colab.research.google.com/ DataBricks  
+DataBricks, Creación de Cluster, ingesta y consulta de datos.
 
-Nombre1 , Nombre2... DATABRICKS 
+Sergio Pulido Salvador , Javier Pérez Álvarez 
 
 ![](images_databricks/Scr1.jpeg)
 
-1-  Registrar cuenta como personal. 
-
+## Registrarse en Databricks
+### Registrar Cuenta como personal
 ![](images_databricks/Scr2.jpeg)
 
-2-  Validar el correo 
 
+### Validar el Correo electrónico
 ![](images_databricks/Scr3.jpeg)
-
-
 ![](images_databricks/Scr4.jpeg)
 
 
-3-  Crear el clúster 
+### Crear el clúster
 
 ![](images_databricks/Screenshot_1.jpg)
 
+Seleccionar Create compute (Botón Azul).
 
 !![](images_databricks/Screenshot_2.jpg)
 
-4-  Crear las tablas 
+Dejar por defecto Spark, cambiar el nombre al deseado.
 
 ![](images_databricks/Screenshot_3.jpg)
 
-5-  Adjuntar los csv del repositorio y darle a create table in notebook
+Esperar a que se cree, cuando esté el punto verde al lado del nombre estará listo.
 
 ![](images_databricks/Screenshot_4.jpg)
 
-6-  Seleccionar el cluster creado anteriormente
+### Importación de Datos
+
+En el apartado de inicio, seleccionar 'Create Table'
 ![](images_databricks/Screenshot_5.jpg)
 
-7-  Modificar el nombre de las tablas en el notebook si da error. A continuación, dar 
-
-click a “Run all” 
+Seleccionar donde se almacenaran los datos, y adjuntar los CSV ubicados en /sample_data . Una vez adjuntos, seleccionar 'Create Table in Notebook', que llevará a la pestaña de edición del Notebook
 
 ![](images_databricks/Screenshot_6.jpg)
+
+### Importar Notebook para procesamiento
+
+Databricks generará un Notebook por defecto, pero se utilizará el notebook adjunto en github. 
+Para ello se descarga y se selecciona el apartado 'File > Import > Import From File', se adjunta el notebook.
+![](images_databricks/Screenshot_13.jpg)
+![](images_databricks/Screenshot_14.jpg)
+
+Una vez abierto, se selecciona el cluster creado al lado de 'Share' y 'Publish'
+![](images_databricks/Screenshot_8.jpg)
 
 8-  Hemos probado la siguiente consulta
 ![](images_databricks/Screenshot_7.jpg)
@@ -49,12 +58,11 @@ click a “Run all”
 9-  Al darle a los 3 puntos se puede exportar el notebook como un archivo DBC, .py, 
 
 notebook de python y HTML. 
-![](images_databricks/Screenshot_8.jpg)
+
 ![](images_databricks/Screenshot_9.jpg)
 ![](images_databricks/Screenshot_10.jpg)
 ![](images_databricks/Screenshot_11.jpg)
 ![](images_databricks/Screenshot_12.jpg)
-![](images_databricks/Screenshot_13.jpg)
-![](images_databricks/Screenshot_14.jpg)
+
 
 

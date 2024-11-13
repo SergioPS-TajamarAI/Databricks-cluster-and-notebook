@@ -1,13 +1,11 @@
 # Databricks-cluster-and-notebook
 Configuración de la cuenta básica de DataBricks, creando poosteriormente un clúster, añadiendo varias tablas de datos y creando un notebook en el que ejecutar consultas.
-# TITULO
-DataBricks, Creación de Cluster, ingesta y consulta de datos.
 
 Sergio Pulido Salvador , Javier Pérez Álvarez 
 
 ![](images_databricks/Scr1.jpeg)
 
-## Registrarse en Databricks
+## Registrarse en www.databricks.com
 ### Registrar Cuenta como personal
 ![](images_databricks/Scr2.jpeg)
 

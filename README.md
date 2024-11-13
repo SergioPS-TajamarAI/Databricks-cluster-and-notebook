@@ -51,17 +51,16 @@ Para ello se descarga y se selecciona el apartado 'File > Import > Import From F
 
 Una vez abierto, se selecciona el cluster creado al lado de 'Share' y 'Publish'
 ![](images_databricks/Screenshot_8.jpg)
-
-8-  Hemos probado la siguiente consulta
+Ahora se selecciona 'Run All', esto ejecutará todo el notebook, que creará las vistas y tablas de la base de datos basandose en los ficheros.csv
 ![](images_databricks/Screenshot_7.jpg)
 
-9-  Al darle a los 3 puntos se puede exportar el notebook como un archivo DBC, .py, 
-
-notebook de python y HTML. 
+Una vez terminada la ejecución, se puede ver que se han creado las tablas, y se muestran los resultados de las consultas elaboradas.
 
 ![](images_databricks/Screenshot_9.jpg)
 ![](images_databricks/Screenshot_10.jpg)
 ![](images_databricks/Screenshot_11.jpg)
+
+Se pueden personalizar las consultas dentro del Notebook. Se proporciona una consulta básica que muestra las ardillas que han presentado observaciones.
 ![](images_databricks/Screenshot_12.jpg)
 
 

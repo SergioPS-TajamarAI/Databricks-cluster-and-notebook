@@ -5,7 +5,7 @@ https://colab.research.google.com/ DataBricks
 
 Nombre1 , Nombre2... DATABRICKS 
 
-![](images/Aspose.Words.459951e9-d8b6-4381-a389-77198ec51535.001.jpeg)
+![](images/Scr1.jpeg)
 
 1-  Registrar cuenta como personal. 
 
